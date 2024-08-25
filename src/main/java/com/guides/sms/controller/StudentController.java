@@ -30,6 +30,7 @@ public class StudentController {
         //create student object to hold student form data
         Student student=new Student();
         model.addAttribute("student",student);
+        System.out.println(student);
         return "create_student";
     }
 
